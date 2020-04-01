@@ -11,6 +11,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "docker:local:build": "docker build -t react_local -f Dockerfile.dev .",
+    "docker:local:run": "docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app react_local ",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
