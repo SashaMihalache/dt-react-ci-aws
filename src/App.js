@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Wow merge <code>src/App.js</code> and save to reload ce:wsdasda:
+          Wow
+          §:merge <code>src/App.js</code> and save to reload ce:wsdasda:
         </p>
         <a
           className="App-link"
